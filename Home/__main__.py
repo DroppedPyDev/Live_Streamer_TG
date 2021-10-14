@@ -13,7 +13,7 @@ Client(
     API_ID,
     API_HASH,
     bot_token=TOKEN,
-    plugins={'root': 'Home.plugins'}
+    plugins={'root': 'Home.Modules'}
 ).start()
 os.system("echo 'Bot Started'")
 vcusr.run()
