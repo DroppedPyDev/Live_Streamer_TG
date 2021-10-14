@@ -1,0 +1,37 @@
+{
+    "name": "Live_Streamer_TG",
+    "description": "An Telegram Bot To Stream Videos and Audios in Voice Chat",
+    "logo": "https://telegra.ph/file/fa49c70f62d540baab95a.jpg",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "voicechat",
+      "bot"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Your API ID from https://my.telegram.org",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Your API HASH from https://my.teleram.org",
+        "required": true
+      },
+      "SESSION": {
+        "description": "Get Pyrogram string session from @StringSessionBot",
+        "required": true
+      },
+      "TOKEN": {
+        "description": "Your BOT TOKEN from https://t.me/BotFather",
+        "required": true
+      },
+      "ADMINS": {
+        "description": "Your telegram ID. If 2 or more, Seperate by space.",
+        "required": true
+      },
+      "CHAT_ID": {
+        "description": "Chat ID where need to bot work.",
+        "required": true
+      }
+    }
+  }
